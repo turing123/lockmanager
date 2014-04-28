@@ -1,4 +1,2 @@
-lockmanager
+LockManager
 ===========
-
-Lock manager
