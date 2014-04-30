@@ -6,7 +6,7 @@ package turing123.lockmanager;
  * Any implementation of this interface should guarantee that:
  * (1) the customers of this implementation can acquire and release a read lock or a write lock for 
  * a specified key;
- * (2) the acquisition and release of locks obey to the semantics of read_write_locks;
+ * (2) the acquisition and release of locks obey to the semantics of java.util.concurrent.locks.ReentrantReadWriteLock;
  * (3) no memory leak is introduced, that is, the lock objects are correctly managed, they should be
  * constructed and deconstructed at right time.
  * 
